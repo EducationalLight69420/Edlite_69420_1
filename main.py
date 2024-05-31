@@ -2,7 +2,7 @@ import micropip
 await micropip.install("setuptools")
 await micropip.install("razorpay")
 
-import razorpay
+import razorpay, setuptools
 from pyscript import display
 
 client = razorpay.Client(auth=("rzp_live_h7HHdgtBmhiyff", "yaVQNulYrZwNoetoMPhGySKR"))
