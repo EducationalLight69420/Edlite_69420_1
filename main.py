@@ -1,5 +1,5 @@
 import micropip
-await micropip.install("razorpay")
+micropip.install("razorpay")
 
 import razorpay, setuptools
 from pyscript import display
