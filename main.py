@@ -13,4 +13,4 @@ DATA = {
     }
 }
 x = client.order.create(data=DATA)
-print(x['id'])
+display(x['id'])
