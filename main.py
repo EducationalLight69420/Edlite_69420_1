@@ -1,5 +1,4 @@
 import micropip
-await micropip.install("setuptools")
 await micropip.install("razorpay")
 
 import razorpay, setuptools
