@@ -1,10 +1,28 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Main HTML File</title>
+  <style>
+    /* Remove any default margin and padding from body */
+    body, html {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      height: 100%;
+    }
+
+    /* Ensure the iframe fills the entire viewport */
+    iframe {
+      display: block; /* Removes the small space below the iframe */
+      width: 100%;
+      height: 100%;
+      border: none; /* Remove default iframe border */
+    }
+  </style>
 </head>
 <body>
-  <h1>Welcome to the Main Page</h1>
   <iframe src="https://script.google.com/macros/s/AKfycbzODiDxD6SFEuoK-G47hII8BkXY5shGUf6mfkACksVjOeWzRn47ny_pnNsLQZMOPg46hg/exec" width="100%" height="500px"></iframe>
 </body>
 </html>
